@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "museum"
+version = "0.1.0"
+description = "Slideshow for museum"
+authors = ["Anatolii Makhaev <greal-san@ya.ru>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-vlc = "^3.0.21203"
+keyboard = {git = "https://github.com/boppreh/keyboard.git", rev = "d232de0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
