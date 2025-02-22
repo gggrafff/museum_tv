@@ -10,7 +10,7 @@ Example:
 3. The Forge
 4. The Arts
 
-It is necessary to mount several buttons (for example, these may be pins from a PC keyboard). So that when you press one, playback starts from folder (1), and when you press 3, playback starts from folder (3).
+It is necessary to mount several buttons (for example, these may be pins from a PC keyboard). So that when you press `1`, playback starts from folder (1), and when you press `3`, playback starts from folder (3).
 
 **This script monitors keystrokes and controls the vlc player to switch playlists.**
 
@@ -26,7 +26,7 @@ sudo reboot
 ```
 4) Put video files to directories. If you use your own directory names, then fix the config in the `show.py` file.
 5) Execute `poetry run python show.py`
-6) Press 1, 2, 3, 4 to switch playlists or esc to exit.
+6) Press `1`, `2`, `3`, `4` to switch playlists or `esc` to exit.
 
 ## TODO
  * Pack this program by pyinstaller to one executable file
